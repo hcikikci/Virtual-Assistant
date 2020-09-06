@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 This module listen audio from microphone and convert to the string.
-And take the data from another class after that convert it to the audio and play.
 """
 
 from speech_recognition import Recognizer, Microphone, UnknownValueError, RequestError
